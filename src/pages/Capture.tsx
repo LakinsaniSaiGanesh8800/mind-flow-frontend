@@ -95,7 +95,7 @@ export default function Capture() {
       .map((t) => t.trim().toLowerCase())
       .filter(Boolean);
 
-    const response = await fetch("http://localhost:5000/api/brain/capture", {
+    const response = await fetch(`${import.meta.env.VITE_API_URL}/api/brain/capture`", {
       method: "POST",
       headers: {
        "Content-Type": "application/json",
