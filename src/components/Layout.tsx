@@ -33,9 +33,9 @@ export default function Layout() {
       </div>
 
       {/* Sidebar */}
-      <aside className="fixed left-0 top-0 h-full w-64 z-40 hidden lg:flex flex-col border-r border-white/[0.06] bg-white/[0.02] backdrop-blur-xl">
+      <aside className="fixed left-0 top-0 h-full w-64 z-40 hidden lg:flex flex-col border-r border-slate-200 bg-white backdrop-blur-xl">
         {/* Logo */}
-        <div className="p-6 border-b border-white/[0.06]">
+        <div className="p-6 border-b border-slate-200">
           <Link to="/" className="flex items-center gap-3 group">
             <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-violet-500 to-indigo-600 flex items-center justify-center shadow-lg shadow-violet-500/25 group-hover:shadow-violet-500/40 transition-shadow">
               <Brain size={18} className="text-white" />
